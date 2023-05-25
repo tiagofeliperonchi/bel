@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="assets/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+
+    <style>
+        #form-cadastro {
+            padding: 0;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body id="cadastro-de-proposta-de-projeto">
+    <div include="parts/header.html"></div>
+
+    <div class="wrapper-title">
+        <div class="container">
+            <h1 class="page-title">Cadastro de Proposta de Projeto</h1>
+            <div id="breadcrumb">
+                <a href="">Página inicial</a> <a href="">ESG</a> <a href="">Ações Sociais</a> <span>Cadastro de Proposta
+                    de Projeto</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="" id="form-cadastro" class="col-sm-7">
+            <div class="form-row">
+                <label for="TROCAR">Categoria do Projeto *</label>
+                <select name="TROCAR" id="TROCAR">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="1">Opção 1</option>
+                    <option value="2">Opção 2</option>
+                    <option value="3">Opção 3</option>
+                    <option value="4">Opção 4</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="TROCAR">Nome do projeto *</label>
+                <input type="text" name="TROCAR" id="TROCAR">
+            </div>
+            <div class="form-row">
+                <label for="TROCAR">Proponente *</label>
+                <input type="text" name="TROCAR" id="TROCAR">
+            </div>
+            <div class="form-row">
+                <label for="TROCAR">Nome do Responsável *</label>
+                <input type="text" name="TROCAR" id="TROCAR">
+            </div>
+            <div class="form-row">
+                <label for="TROCAR">E-mail</label>
+                <input type="email" name="TROCAR" id="TROCAR">
+            </div>
+            <div class="row">
+                <div class="form-row col-sm-5">
+                    <label for="TROCAR">Telefone</label>
+                    <input type="tel" name="TROCAR" id="TROCAR">
+                </div>
+                <div class="form-row col-sm-7">
+                    <label for="TROCAR">CPF do Responsável *</label>
+                    <input type="number" name="TROCAR" id="TROCAR">
+                </div>
+            </div>
+            <div class="form-row">
+                <label for="TROCAR">Endereço completo *</label>
+                <input type="text" name="TROCAR" id="TROCAR">
+            </div>
+            <div class="row">
+                <div class="form-row col-sm-5">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+                <div class="form-row col-sm-7">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-row col-sm-7">
+                    <label for="TROCAR">CEP *</label>
+                    <input type="number" name="TROCAR" id="TROCAR">
+                </div>
+            </div>
+            <div class="block-anexo">
+                <h2>Envio do projeto</h2>
+                <div class="form-row">
+                    <label for="TROCAR">Para arquivos maiores que 2MB insira um link para download no campo abaixo:</label>
+                    <input type="text" name="TROCAR" id="TROCAR">
+                </div>
+
+                <div class="form-row">
+                    <label for="TROCAR"><span>Anexe seu projeto *</span>
+                        (somente arquivo do tipo .doc, .docx, .ppt, .pptx ou .pdf com até 2MB)</label>
+                    <label class="input-file" title="Nenhum arquivo selecionado"><input type="file" name="TROCAR" id="TROCAR"></label>
+                </div>
+            </div>
+            <div class="form-button">
+                <button type="button" class="btn-two">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <div include="parts/footer.html"></div>
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/include.js"></script>
+
+    <script>
+        $(function() {
+            $('input[type=file]').on('change', function(e) {
+                let fileName = e.target.files[0].name;
+                $(this).parent().prop('title', fileName)
+            })
+        })
+    </script>
+</body>
+
+</html>

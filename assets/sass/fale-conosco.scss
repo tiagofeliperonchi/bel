@@ -1,0 +1,26 @@
+#fale-conosco {
+    .par-1 {
+      margin-bottom: 50px;
+    }
+  
+    .widget {
+      padding: 30px 40px;
+      border-radius: 20px;
+      background: #fff;
+      margin-bottom: 40px;
+      box-shadow: 0 0 51px 0 rgba(3, 4, 4, 0.08);
+  
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  
+    .widget-title {
+      line-height: 1;
+      padding-bottom: 30px;
+      margin-bottom: 25px;
+      border-bottom: solid 1px #cfcfcf;
+      color: #5a5a5c;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+#seja-fornecedor .block-text {
+    margin-bottom: 60px;
+}
+
+#seja-fornecedor .block-text p {
+    margin-bottom: 1.625em;
+}
+
+#seja-fornecedor .block-text p:last-child {
+    margin-bottom: 0;
+}
+
+#seja-fornecedor .column-form h3 {
+    line-height: 1;
+    margin-bottom: 40px;
+}
