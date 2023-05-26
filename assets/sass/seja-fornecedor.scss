@@ -1,19 +1,18 @@
 #seja-fornecedor {
-    .block-text {
-      margin-bottom: 60px;
-  
-      p {
-        margin-bottom: 1.625em;
-  
-        &:last-child {
-          margin-bottom: 0;
-        }
+  .block-text {
+    margin-bottom: 60px;
+
+    p {
+      margin-bottom: 1.625em;
+
+      &:last-child {
+        margin-bottom: 0;
       }
     }
-  
-    .column-form h3 {
-      line-height: 1;
-      margin-bottom: 40px;
-    }
   }
-  
+
+  .column-form h3 {
+    line-height: 1;
+    margin-bottom: 40px;
+  }
+}

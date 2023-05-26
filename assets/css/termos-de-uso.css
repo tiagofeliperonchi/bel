@@ -1,0 +1,51 @@
+#termos-de-uso .term-one {
+    height: 60px;
+    padding: 0 30px;
+    font-style: italic;
+    border-radius: 6px;
+    background: #eeeeee;
+    margin-bottom: 75px;
+}
+
+#termos-de-uso .term-one:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#termos-de-uso .term-block {
+    margin-bottom: 90px;
+}
+
+#termos-de-uso .term-block h3 {
+    line-height: 1;
+    color: #cd171f;
+    margin-bottom: 70px;
+}
+
+#termos-de-uso .term-block ul li,
+#termos-de-uso .term-block p {
+    margin-bottom: 1.625em;
+}
+
+#termos-de-uso .term-block ul li:last-child,
+#termos-de-uso .term-block p:last-child {
+    margin-bottom: 0;
+}
+
+#termos-de-uso .term-block ul li:before {
+    content: '';
+    float: left;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #6b6b6b;
+    margin: 10px 6px 0 0;
+}
+
+#termos-de-uso .term-update {
+    border-top: solid 1px #d3d3d3;
+    padding-top: 20px;
+    font-style: italic;
+}
