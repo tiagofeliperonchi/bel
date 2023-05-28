@@ -1383,7 +1383,7 @@ body {
   content: '';
   width: 190px;
   padding-top: 20.48%;
-  background: url(../svg.svg) 0 0 no-repeat;
+  background: url(../header-logo.svg) 0 0 no-repeat;
   background-size: 100%;
 }
 
@@ -1399,23 +1399,60 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 6px 0;
-  width: 60px;
-  height: 70px;
-  background: transparent;
+  width: 50px;
+  height: 50px;
+  gap: 4px 0;
+  background-color: transparent;
 }
 
 .navbar-toggle span {
-  width: 34px;
-  height: 3px;
-  background: #4d4d4f;
+  width: 22px;
+  height: 2px;
+  background: #1692e6;
 }
 
-@media (min-width: 768px) {
+.navbar-toggle span:nth-child(1) {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+  -webkit-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.navbar-toggle span:nth-child(2) {
+  visibility: hidden;
+}
+
+.navbar-toggle span:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  margin-bottom: 0;
+  -webkit-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.navbar-toggle.collapsed span {
+}
+
+.navbar-toggle.collapsed span:nth-child(1) {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(2) {
+  visibility: unset;
+}
+
+.navbar-toggle.collapsed span:nth-child(3) {
+  transform: rotate(0);
+}
+
+@media (min-width: 992px) {
   .navbar-toggle {
     display: none;
   }
 }
+
 
 .navbar-nav>li {
   font-size: 15px;
@@ -1575,6 +1612,20 @@ body {
 #main-footer {
   background: #eee;
   margin-top: 70px;
+}
+
+#main-footer .footer-brand a {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  font-size: 0;
+  background: url(../footer-logo.svg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+#main-footer .footer-brand a:before {
+  content: '';
+  padding-top: 99.1%;
 }
 
 #main-footer .footer-row {
@@ -1793,7 +1844,7 @@ body {
 .wrapper-title {
   position: relative;
   display: flex;
-  min-height: 160px;
+  height: 160px;
   margin-bottom: 70px;
 }
 
@@ -1825,7 +1876,7 @@ body {
 
 @media (min-width: 576px) {
   .wrapper-title {
-    min-height: 220px;
+    height: 220px;
   }
 
   .wrapper-title:before {

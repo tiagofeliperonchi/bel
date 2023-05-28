@@ -1,4 +1,9 @@
 #page-404 {
+  #main-footer {
+    margin-top: 0 !important;
+  }
+
+  .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,26 +15,26 @@
     background-image: -moz-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
     background-image: -webkit-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
     background-image: -ms-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
-  
+
     .page-title {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px 0;
-  
+
       span {
         font-size: 100px;
         color: #ab1722;
       }
     }
-  
+
     .par-1 {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 50px 0;
       color: #fff;
-  
+
       &:before {
         content: '\e807';
         font-family: 'fontello';
@@ -39,3 +44,4 @@
       }
     }
   }
+}

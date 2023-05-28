@@ -1,4 +1,8 @@
-#page-404 {
+#page-404 #main-footer {
+    margin-top: 0 !important;
+}
+
+#page-404 .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,19 +16,19 @@
     background-image: -ms-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
 }
 
-#page-404 .page-title {
+#page-404 .wrapper .page-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px 0;
 }
 
-#page-404 .page-title span {
+#page-404 .wrapper .page-title span {
     font-size: 100px;
     color: #ab1722;
 }
 
-#page-404 .par-1 {
+#page-404 .wrapper .par-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +36,7 @@
     color: #fff;
 }
 
-#page-404 .par-1:before {
+#page-404 .wrapper .par-1:before {
     content: '\e807';
     font-family: 'fontello';
     font-size: 76px;

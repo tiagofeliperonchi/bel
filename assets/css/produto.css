@@ -1,0 +1,288 @@
+#produto #main-footer {
+    margin-top: 100px;
+}
+
+#produto .wrapper-title {
+    height: 86px;
+}
+
+#produto.bel-quimica .wrapper-title:before {
+    background-image: -moz-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
+    background-image: -webkit-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
+    background-image: -ms-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
+}
+
+#produto.bel-quimica #breadcrumb a {
+    color: #77a7ce;
+}
+
+#produto.bel-profund .wrapper-title:before {
+    background-image: -moz-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
+    background-image: -webkit-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
+    background-image: -ms-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
+}
+
+#produto.bel-profund #breadcrumb a {
+    color: #ffc667;
+}
+
+@media (min-width: 576px) {
+    #produto .wrapper-title {
+        height: 86px;
+    }
+}
+
+#produto .column-image {}
+
+#produto #thumb {
+    float: left;
+    margin-right: 25px;
+}
+
+#produto #thumb .slick-slide {
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+
+    height: 56px;
+    border: solid 1px #cfcfcf;
+    margin-bottom: 10px;
+}
+
+#produto #thumb .slick-slide img {
+    width: 26px;
+}
+
+#produto #photo {
+    overflow: hidden;
+    padding: 0 35px;
+}
+
+#produto #photo .slick-slide {
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    border: solid 1px #cfcfcf;
+}
+
+#produto #photo .slick-arrow {
+    position: absolute;
+    top: 0;
+    width: 35px;
+    height: 100%;
+    background: transparent;
+    z-index: 9;
+}
+
+#produto #photo .slick-prev {
+    left: 0;
+}
+
+#produto #photo .slick-next {
+    right: 0;
+}
+
+#produto .column-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+#produto .product-info {
+    position: relative;
+    flex: 1;
+    padding: 45px;
+    border: solid 1px #cfcfcf;
+}
+
+#produto .product-cod {
+    line-height: 1;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#produto .product-cod strong {
+    font-weight: 600;
+}
+
+#produto .product-name {
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+#produto .product-actions {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    display: flex;
+}
+
+#produto .product-actions li a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+}
+
+#produto .product-actions li a.favoritar {
+    background: url(../like.gif) center center no-repeat;
+}
+
+#produto .product-actions li a.compartilhar {
+    background: url(../share.gif) center center no-repeat
+}
+
+#produto #form-add-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#produto #form-add-product legend {
+    width: 100%;
+    line-height: 1;
+    font-weight: 300;
+}
+
+#produto #form-add-product .qnt-wrapper {
+    display: flex;
+    width: 160px;
+    border: solid 1px #cfcfcf;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#produto #form-add-product .qnt-wrapper input {
+    width: 70px;
+    font-weight: 300;
+    text-align: center;
+    text-align-last: center;
+}
+
+#produto #form-add-product .qnt-wrapper button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    font-size: 0;
+    background: transparent;
+}
+
+#produto #form-add-product .qnt-wrapper button:before {
+    font: 400 15px/1 'fontello';
+}
+
+#produto #form-add-product .qnt-wrapper button.add:before {
+    content: '\e80c';
+}
+
+#produto #form-add-product .qnt-wrapper button.rem:before {
+    content: '\e80d';
+}
+
+#produto #form-add-product .add button {
+    display: flex;
+    width: 52px;
+    height: 46px;
+    font-size: 0;
+    background: #35a673 url(../add-cart.gif) center center no-repeat;
+    border-radius: 6px;
+
+}
+
+#produto .product-share-links {
+    display: flex;
+    gap: 0 5px;
+}
+
+#produto .product-share-links li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+    line-height: 1;
+    color: #fff;
+}
+
+#produto .product-share-links li a:before {
+    font-family: 'fontello';
+    font-size: 20px;
+}
+
+#produto .product-share-links li a[title="Facebook"] {
+    background: #3b5998;
+}
+
+#produto .product-share-links li a[title="Facebook"]:before {
+    content: '\e803';
+}
+
+#produto .product-share-links li a[title="Linkedin"] {
+    background: #007fb1;
+}
+
+#produto .product-share-links li a[title="Linkedin"]:before {
+    content: '\e804';
+}
+
+#produto .product-share-links li a[title="Twitter"] {
+    background: #00aced;
+}
+
+#produto .product-share-links li a[title="Twitter"]:before {
+    content: '\f099';
+}
+
+#produto .product-share-links li a[title="Whatsapp"] {
+    background: #25d366;
+}
+
+#produto .product-share-links li a[title="Whatsapp"]:before {
+    content: '\f232';
+}
+
+#produto .product-share-links li a[title="Telegram"] {
+    background: #37aee2;
+}
+
+#produto .product-share-links li a[title="Telegram"]:before {
+    content: '\e80b';
+}
+
+#produto .nav-tabs {
+    display: flex;
+    gap: 0 35px;
+    border-bottom: solid 1px #cfcfcf;
+}
+
+#produto .nav-tabs li {
+    margin-bottom: -1px;
+}
+
+#produto .nav-tabs li a {
+    display: flex;
+    height: 32px;
+
+    font-size: 18px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+#produto .nav-tabs li.active a {
+    color: #d11820;
+    font-weight: 500;
+    border-bottom: solid 2px #d11820;
+}
+
+#produto .tab-content .tab-pane {
+    display: none;
+    padding: 30px 0;
+}
+
+#produto .tab-content .tab-pane.active {
+    display: block;
+}
