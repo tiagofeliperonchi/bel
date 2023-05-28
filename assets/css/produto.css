@@ -6,33 +6,11 @@
     height: 86px;
 }
 
-#produto.bel-quimica .wrapper-title:before {
-    background-image: -moz-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
-    background-image: -webkit-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
-    background-image: -ms-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
-}
-
-#produto.bel-quimica #breadcrumb a {
-    color: #77a7ce;
-}
-
-#produto.bel-profund .wrapper-title:before {
-    background-image: -moz-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
-    background-image: -webkit-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
-    background-image: -ms-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
-}
-
-#produto.bel-profund #breadcrumb a {
-    color: #ffc667;
-}
-
 @media (min-width: 576px) {
     #produto .wrapper-title {
         height: 86px;
     }
 }
-
-#produto .column-image {}
 
 #produto #thumb {
     float: left;
@@ -265,11 +243,20 @@
 
 #produto .nav-tabs li a {
     display: flex;
+    flex-direction: column;
     height: 32px;
-
     font-size: 18px;
     line-height: 1;
+    text-align: center;
     text-transform: uppercase;
+}
+
+#produto .nav-tabs li a:before {
+    content: attr(title);
+    font-weight: 500;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 #produto .nav-tabs li.active a {
@@ -285,4 +272,22 @@
 
 #produto .tab-content .tab-pane.active {
     display: block;
+}
+
+.bel-quimica .wrapper-title:before {
+    background-image: -moz-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
+    background-image: -webkit-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
+    background-image: -ms-linear-gradient(0deg, rgb(56, 95, 128) 0%, rgb(26, 50, 70) 70%);
+}
+
+.bel-profund .wrapper-title:before {
+    background-image: -moz-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
+    background-image: -webkit-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
+    background-image: -ms-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
+}
+
+.bel-lar .wrapper-title:before {
+    background-image: -moz-linear-gradient(0deg, rgb(10, 149, 142) 0%, rgb(13, 187, 180) 70%);
+    background-image: -webkit-linear-gradient(0deg, rgb(10, 149, 142) 0%, rgb(13, 187, 180) 70%);
+    background-image: -ms-linear-gradient(0deg, rgb(10, 149, 142) 0%, rgb(13, 187, 180) 70%);
 }

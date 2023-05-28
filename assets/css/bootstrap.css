@@ -1432,9 +1432,6 @@ body {
   transition: all 200ms;
 }
 
-.navbar-toggle.collapsed span {
-}
-
 .navbar-toggle.collapsed span:nth-child(1) {
   transform: rotate(0);
 }
@@ -1841,6 +1838,19 @@ body {
   margin-right: 8px;
 }
 
+.bel-quimica #breadcrumb a {
+  color: #77a7ce;
+}
+
+.bel-profund #breadcrumb a {
+  color: #ffc667;
+}
+
+.bel-lar #breadcrumb a {
+  color: #27cfc8;
+}
+
+
 .wrapper-title {
   position: relative;
   display: flex;
@@ -2068,4 +2078,62 @@ body {
 
 .grid-marcas .marca .column-text p {
   margin-bottom: 25px;
+}
+
+.xxxxaaaaalllll {
+  height: 536px;
+  margin-bottom: 80px;
+}
+
+.xxxxaaaaalllll>.container {
+  justify-content: flex-start;
+}
+
+.xxxxaaaaalllll .par-description {
+  font-weight: 700;
+  color: #fff;
+}
+
+.xxxxaaaaalllll .column-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.xxxxaaaaalllll .column-image img {
+  border-radius: 500px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.pagination ul {
+  display: flex;
+  gap: 0 8px;
+}
+
+.pagination ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 1;
+  border: solid 1px #d9d9d9;
+  border-radius: 2px;
+}
+
+.pagination ul li.disabled a {
+  color: #bbb;
+  cursor: default;
+}
+
+.pagination ul li.current_page a {
+  color: #ce1e12;
+  border-color: #ce1e12;
+  cursor: default;
 }

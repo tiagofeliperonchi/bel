@@ -1,47 +1,47 @@
 #page-404 {
-  #main-footer {
-    margin-top: 0 !important;
-  }
-
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    gap: 40px 0;
-    padding: 40px 15px;
-    text-align: center;
-    background-image: -moz-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
-    background-image: -webkit-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
-    background-image: -ms-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
-
-    .page-title {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px 0;
-
-      span {
-        font-size: 100px;
-        color: #ab1722;
-      }
+    #main-footer {
+        margin-top: 0 !important;
     }
 
-    .par-1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 50px 0;
-      color: #fff;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        gap: 40px 0;
+        padding: 40px 15px;
+        text-align: center;
+        background-image: -moz-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
+        background-image: -webkit-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
+        background-image: -ms-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
 
-      &:before {
-        content: '\e807';
-        font-family: 'fontello';
-        font-size: 76px;
-        line-height: 1;
-        text-shadow: 0 10px 18px rgba(0, 0, 0, 0.31);
-      }
+        .page-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px 0;
+
+            span {
+                font-size: 100px;
+                color: #ab1722;
+            }
+        }
+
+        .par-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px 0;
+            color: #fff;
+
+            &:before {
+                content: '\e807';
+                font-family: 'fontello';
+                font-size: 76px;
+                line-height: 1;
+                text-shadow: 0 10px 18px rgba(0, 0, 0, 0.31);
+            }
+        }
     }
-  }
 }
