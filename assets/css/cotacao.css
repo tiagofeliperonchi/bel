@@ -1,0 +1,68 @@
+#cotacao .legend {
+    text-align: right;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#cotacao .asopidjoas {
+    border: solid 1px #d2d2d2;
+    padding: 50px 30px 30px;
+    margin-bottom: 50px;
+}
+
+#cotacao .asopidjoas .asopidjoas-title {
+    line-height: 1;
+    color: #cf1720;
+    margin-bottom: 40px;
+}
+
+#cotacao .asopidjoas .par-1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#cotacao .asopidjoas ol {
+    padding-left: 18px;
+    margin-bottom: 50px;
+}
+
+#cotacao .asopidjoas ol li {
+    list-style: decimal;
+}
+
+#cotacao .sadojhacvcccc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#cotacao .sadojhacvcccc textarea {
+    padding: 25px;
+}
+
+#cotacao .sadojhacvcccc:last-child {
+    margin-bottom: 0;
+}
+
+#cotacao .sadojhacvcccc .lbl-text {
+    line-height: 1;
+    padding-bottom: 15px;
+}
+
+#cotacao .sadojhacvcccc textarea {
+    border: solid 1px #cfcfcf;
+    border-radius: 6px;
+}
+
+#cotacao .sadojhacvcccc .btn-one input {
+    display: none;
+}
+
+#cotacao .sadojhacvcccc .btn-one:before {
+    content: 'Anexar';
+}
+
+#cotacao .asd {
+    display: flex;
+    justify-content: space-between;
+}

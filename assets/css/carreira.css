@@ -1,0 +1,231 @@
+#carreira .box-1 .column-text {
+    padding-top: 70px;
+}
+
+#carreira .box-1 .column-text h2 {
+    line-height: 1;
+    margin-bottom: 90px;
+}
+
+#carreira .box-1 .column-text .hashtag {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+    color: #cf171f;
+    margin-bottom: 30px;
+}
+
+#carreira .box-1 .column-text .hashtag span {
+    font-weight: 300;
+}
+
+#carreira .box-1 .column-image {
+    flex: 1;
+    display: flex;
+    padding-right: 15px;
+}
+
+#carreira .box-1 .column-image img {
+    width: 100%;
+}
+
+#carreira #accordion .panel-body {
+    padding: 40px 60px;
+}
+
+#carreira .box-2 {
+    margin-bottom: 140px;
+}
+
+#carreira .box-3 {
+    margin-bottom: 110px;
+}
+
+#carreira .box-4 {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+#carreira .box-4:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 416px;
+    background-image: -moz-linear-gradient(10deg, rgb(132, 15, 20) 0%, rgb(193, 39, 51) 41%, rgb(254, 62, 82) 90%);
+    background-image: -webkit-linear-gradient(10deg, rgb(132, 15, 20) 0%, rgb(193, 39, 51) 41%, rgb(254, 62, 82) 90%);
+    background-image: -ms-linear-gradient(10deg, rgb(132, 15, 20) 0%, rgb(193, 39, 51) 41%, rgb(254, 62, 82) 90%);
+    z-index: 1;
+}
+
+#carreira .box-4>.container {
+    position: relative;
+    z-index: 2;
+}
+
+#carreira .box-4 .column-text .text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 416px;
+}
+
+#carreira .box-4 .column-text .text-1 h2 {
+    color: #fff;
+}
+
+#carreira .box-4 .column-text .text-2 {
+    padding-top: 120px;
+}
+
+#carreira .box-4 .column-text .text-2 h2 {
+    margin-bottom: 80px;
+}
+
+#carreira .box-4 .column-text .text-2 .par-1 {
+    margin-bottom: 40px;
+}
+
+#carreira .box-4 .column-text .text-2 .buttons {
+    display: flex;
+    gap: 0 20px;
+}
+
+#carreira .box-4 .column-image {
+    display: flex;
+    padding-top: 115px;
+}
+
+#carreira .box-4 .column-image img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+#carreira .box-5 {
+    margin-bottom: 120px;
+}
+
+#carreira .box-5 .box-title {
+    margin-bottom: 80px;
+}
+
+#carreira .box-5 .block-text {
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#carreira .box-5 .block-text:last-child {
+    margin-bottom: 0;
+}
+
+#carreira .box-5 .block-text h3 {
+    line-height: 1;
+    color: #cf171f;
+    margin-bottom: 40px;
+}
+
+#carreira .box-6 {
+    margin-bottom: 100px;
+}
+
+#carreira .box-6 .box-title {
+    line-height: 1;
+    margin-bottom: 75px;
+}
+
+#carreira .box-6 .sssss {
+    height: 100%;
+    padding: 50px 40px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 51px 0px rgba(3, 4, 4, 0.08);
+}
+
+#carreira .box-6 .sssss h4 {
+    line-height: 1;
+    color: #ca171e;
+    margin-bottom: 30px;
+}
+
+#carreira .box-7 {
+    margin-bottom: 30px;
+}
+
+#carreira .box-7 .row {
+    align-items: center;
+}
+
+#carreira .box-7 .column-text h3 {
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+#carreira .box-8 {
+    padding-top: 215px;
+    padding-bottom: 50px;
+}
+
+#carreira .box-8>.container {
+    position: relative;
+    height: 254px;
+}
+
+#carreira .box-8>.container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 15px;
+    right: 15px;
+    border-radius: 125px;
+    background-image: -moz-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
+    background-image: -webkit-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
+    background-image: -ms-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
+    z-index: 1;
+}
+
+#carreira .box-8>.container>.row {
+    position: relative;
+
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 40px;
+    gap: 0 80px;
+    z-index: 2;
+}
+
+#carreira .box-8 .column-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px 0;
+}
+
+#carreira .box-8 .column-text h3 {
+    color: #fff;
+}
+
+#carreira .box-8 .column-text p {
+    color: #fff;
+}
+
+#carreira .box-8 .column-text .btn-three:hover {
+    color: #de2937;
+    background: #fff;
+}
+
+#carreira .box-8 .column-image {
+    position: relative;
+    width: 384px;
+    align-self: flex-start;
+}
+
+#carreira .box-8 .column-image img {
+    position: absolute;
+    top: -215px;
+    left: 0;
+    width: 100%;
+}
