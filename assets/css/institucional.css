@@ -9,3 +9,178 @@
 #tecnologia-e-inovacao .box-lg-gradient .line-text {
     margin-bottom: 70px;
 }
+
+#tecnologia-e-inovacao .box-2 .column-image img {
+    display: block;
+    width: 100%;
+    border-radius: 1000px;
+}
+
+#reconhecimentos-e-certificacoes .box-1 {
+    margin-bottom: 110px;
+}
+
+#reconhecimentos-e-certificacoes .box-1 .column-text {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+}
+
+#reconhecimentos-e-certificacoes .box-2 {
+    margin-bottom: 130px;
+}
+
+#reconhecimentos-e-certificacoes .box-2>.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 0 130px;
+    height: 290px;
+}
+
+#reconhecimentos-e-certificacoes .box-2>.container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    height: 290px;
+    background-color: #727272;
+    border-radius: 20px;
+}
+
+#reconhecimentos-e-certificacoes .box-2 .column-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 41.66666667%;
+}
+
+#reconhecimentos-e-certificacoes .box-2 .column-text p {
+    color: #fff;
+    margin-bottom: 1.625em;
+}
+
+#reconhecimentos-e-certificacoes .box-2 .column-text p:last-child {
+    margin-bottom: 0;
+}
+
+#reconhecimentos-e-certificacoes .box-2 .column-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 490px;
+}
+
+#reconhecimentos-e-certificacoes .box-2 .column-image .mulher {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#reconhecimentos-e-certificacoes .box-3 {
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
+
+#reconhecimentos-e-certificacoes .box-3:before {
+    height: 450px;
+}
+
+#reconhecimentos-e-certificacoes .box-3 .prodir-list {
+    display: flex;
+    gap: 30px;
+}
+
+#reconhecimentos-e-certificacoes .box-3 .line {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 80px;
+}
+
+#reconhecimentos-e-certificacoes .box-3 .column-image {
+    position: relative;
+    margin-right: 60px;
+}
+
+#reconhecimentos-e-certificacoes .box-3 .column-image img {
+    display: block;
+    width: 210px;
+}
+
+#reconhecimentos-e-certificacoes .box-3 .prodir-list li {
+    flex: 1;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 51px 0px rgba(3, 4, 4, 0.08);
+
+}
+
+#reconhecimentos-e-certificacoes .box-3 .prodir-list li:before {
+    content: '\e808';
+    display: block;
+    font-family: 'fontello';
+    font-size: 12px;
+    line-height: 1;
+    color: #c9161e;
+    margin-bottom: 25px;
+}
+
+#reconhecimentos-e-certificacoes .box-4 {
+    margin-bottom: 140px;
+}
+
+#reconhecimentos-e-certificacoes .box-4 .line {
+    align-items: center;
+    background: #eee;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#reconhecimentos-e-certificacoes .box-4 .column-image {
+    padding-right: 0;
+}
+
+#reconhecimentos-e-certificacoes .box-4 .column-image img {
+    display: block;
+    width: 100%;
+}
+
+#reconhecimentos-e-certificacoes .box-4 .column-text {
+    padding-left: 0;
+}
+
+#reconhecimentos-e-certificacoes .box-5 .item {
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 51px 0px rgba(3, 4, 4, 0.08);
+
+    overflow: hidden;
+}
+
+#reconhecimentos-e-certificacoes .box-5 .item figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+#reconhecimentos-e-certificacoes .box-5 .item p {
+    padding: 60px;
+}
+
+#reconhecimentos-e-certificacoes .box-5 .halal figure {
+    background: #5da552;
+}
+
+#reconhecimentos-e-certificacoes .box-5 .kosher figure {
+    background: #000;
+}
+
+#reconhecimentos-e-certificacoes .box-5 .fssc figure {
+    background: #1c865a;
+}

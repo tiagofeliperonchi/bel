@@ -2095,13 +2095,16 @@ body {
 
 .box-lg-gradient .par-1 {
   color: #fff;
+  margin-bottom: 1.625em;
 }
 
-.box-lg-gradient .column-image img {
-  display: block;
-  width: 100%;
-  border-radius: 1000px;
+.box-lg-gradient .par-1:last-child {
+  margin-bottom: 0;
+}
 
+.box-lg-gradient .par-2 {
+  font-weight: 700;
+  color: #fff;
 }
 
 .marcas-gradient:before {
