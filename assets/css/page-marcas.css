@@ -144,7 +144,7 @@
     gap: 0 80px;
 }
 
-.bel-quimica .xxxxaaaaalllll:before {
+.bel-quimica .big-title:before {
     background-image: -moz-linear-gradient(-50deg, rgb(57, 97, 129) 0%, rgb(26, 50, 70) 70%);
     background-image: -webkit-linear-gradient(-50deg, rgb(57, 97, 129) 0%, rgb(26, 50, 70) 70%);
     background-image: -ms-linear-gradient(-50deg, rgb(57, 97, 129) 0%, rgb(26, 50, 70) 70%);
@@ -156,7 +156,7 @@
     background-image: -ms-linear-gradient(0deg, rgb(57, 97, 129) 0%, rgb(26, 50, 70) 70%);
 }
 
-.bel-profund .xxxxaaaaalllll:before {
+.bel-profund .big-title:before {
     background-image: -moz-linear-gradient(-50deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
     background-image: -webkit-linear-gradient(-50deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
     background-image: -ms-linear-gradient(-50deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
@@ -168,7 +168,7 @@
     background-image: -ms-linear-gradient(0deg, rgb(254, 132, 11) 0%, rgb(254, 156, 11) 70%);
 }
 
-.bel-lar .xxxxaaaaalllll:before {
+.bel-lar .big-title:before {
     background-image: -moz-linear-gradient(-50deg, rgb(10, 148, 141) 0%, rgb(13, 187, 180) 70%);
     background-image: -webkit-linear-gradient(-50deg, rgb(10, 148, 141) 0%, rgb(13, 187, 180) 70%);
     background-image: -ms-linear-gradient(-50deg, rgb(10, 148, 141) 0%, rgb(13, 187, 180) 70%);
