@@ -9,7 +9,7 @@
     margin-bottom: 45px;
 }
 
-#home .box-1 .column-text .btn-one {
+#home .box-1 .column-text .btn-one:not(:hover) {
     background: #fff;
 }
 
@@ -41,15 +41,14 @@
 
 #home .box-1 .BASE .column-image {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 15px;
-    display: flex;
-    align-items: flex-end;
-    width: 100vw;
+    z-index: 4;
+}
+
+#home .box-1 .BASE .column-image img {
+    display: block;
     height: 100%;
-    border-radius: 2000px;
-    overflow: hidden;
-    z-index: 3;
 }
 
 @media (max-width: 767px) {
@@ -62,7 +61,7 @@
         top: 35px;
         left: 0;
         width: 280px;
-        z-index: 4;
+        z-index: 5;
     }
 
     #home .box-1 .BASE {
@@ -70,8 +69,15 @@
         overflow: hidden;
     }
 
-    #home .box-1 .BASE .column-image img {
+    #home .box-1 .BASE .column-image {
+        width: 250px;
         height: 250px;
+        overflow: hidden;
+        border-radius: 0 0 0 50%;
+    }
+
+    #circle {
+        display: none !important;
     }
 }
 
@@ -91,12 +97,21 @@
     }
 
     #home .box-1 .BASE:after {
-        width: 632px;
-        height: 632px;
+        width: 630px;
+        height: 630px;
     }
 
     #home .box-1 .BASE .column-image {
-        padding-left: 165px;
+        left: 180px;
+        -webkit-clip-path: polygon(66% 0, 76% 5%, 81% 19%, 75% 26%, 74% 31%, 84% 36%, 97% 42%, 100% 50%, 100% 64%, 88% 80%, 92% 93%, 92% 100%, 0 100%, 0 0);
+        clip-path: polygon(66% 0, 76% 5%, 81% 19%, 75% 26%, 74% 31%, 84% 36%, 97% 42%, 100% 50%, 100% 64%, 88% 80%, 92% 93%, 92% 100%, 0 100%, 0 0);
+    }
+
+    #circle {
+        position: absolute;
+        top: 0;
+        left: 475px;
+        z-index: 3;
     }
 }
 

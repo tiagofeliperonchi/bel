@@ -1317,6 +1317,10 @@ body {
   padding-top: 70px;
 }
 
+body.menu-open {
+  overflow: hidden !important;
+}
+
 @media (max-width: 767px) {
   .navbar {
     background: #efefef;
@@ -1358,6 +1362,8 @@ body {
 
   .navbar-collapse {
     flex-direction: column;
+    max-height: calc(100vh - 70px);
+    overflow: auto;
   }
 
   .navbar-collapse.in {
@@ -1466,7 +1472,6 @@ body {
 }
 
 .navbar-nav>li {
-  font-size: 15px;
   line-height: 1;
 }
 
@@ -1477,6 +1482,10 @@ body {
   text-transform: uppercase;
 }
 
+.dropdown-menu {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .navbar-nav {
     margin-top: 40px;
@@ -1484,15 +1493,41 @@ body {
     border-bottom: solid 1px #6b6b6b;
   }
 
-  .navbar-nav>li {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-
   .navbar-nav>li>a {
     height: 64px;
     padding-right: 15px;
     padding-left: 15px;
+  }
+
+  .navbar-nav .dropdown-toggle:after {}
+
+  .navbar-nav .open {
+    background: #bababa;
+  }
+
+  .navbar-nav .open>a {
+    font-weight: 700;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-nav .dropdown-menu {
+    margin-top: -15px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-nav .dropdown-menu>li {
+    line-height: 1.25;
+  }
+
+  .navbar-nav .dropdown-menu>li>a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #fff;
+
   }
 }
 
@@ -1527,7 +1562,6 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    display: none;
     min-width: 290px;
     background: #efefef;
     box-shadow: 0 0 5px 0 rgba(3, 4, 4, .2);
@@ -2418,4 +2452,130 @@ body {
     background-image: -ms-linear-gradient(85deg, rgb(191, 21, 29) 0%, rgb(222, 41, 55) 42%, rgb(253, 61, 81) 100%);
     z-index: 1;
   }
+}
+
+#circle {
+  position: relative;
+  width: 100%;
+  max-width: 630px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#circle:after {
+  content: '';
+  position: absolute;
+  top: 35.08%;
+  left: 24.6%;
+  width: 48.25%;
+  height: 37.62%;
+  background: url(../logo_bel_3d.png) 0 0 no-repeat;
+  background-size: 100%;
+  z-index: 5;
+}
+
+#circle:before {
+  content: '';
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  background: #000;
+  padding-top: 100%;
+  opacity: 0;
+}
+
+#circle:hover:has(.item:hover):before {
+  opacity: .5;
+  z-index: 3;
+}
+
+#circle .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../CIRCULO.png) center center no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+#circle:hover .item:hover {
+  top: -2.38%;
+  left: -2.38%;
+  width: 104.76%;
+  height: 104.76%;
+  z-index: 4;
+}
+
+
+#circle .item:nth-child(1) {
+  -webkit-clip-path: polygon(50% 0%, 50% 50%, 100% 0);
+  clip-path: polygon(50% 0%, 50% 50%, 100% 0);
+}
+
+#circle .item:nth-child(2) {
+  -webkit-clip-path: polygon(100% 0, 50% 50%, 100% 50%);
+  clip-path: polygon(100% 0, 50% 50%, 100% 50%);
+
+}
+
+
+#circle .item:nth-child(3) {
+  -webkit-clip-path: polygon(100% 50%, 50% 50%, 100% 100%);
+  clip-path: polygon(100% 50%, 50% 50%, 100% 100%);
+
+}
+
+
+#circle .item:nth-child(4) {
+  -webkit-clip-path: polygon(100% 100%, 50% 50%, 50% 100%);
+  clip-path: polygon(100% 100%, 50% 50%, 50% 100%);
+
+}
+
+
+#circle .item:nth-child(5) {
+  -webkit-clip-path: polygon(50% 100%, 50% 50%, 0 100%);
+  clip-path: polygon(50% 100%, 50% 50%, 0 100%);
+
+}
+
+
+#circle .item:nth-child(6) {
+  -webkit-clip-path: polygon(0 100%, 50% 50%, 0 50%);
+  clip-path: polygon(0 100%, 50% 50%, 0 50%);
+
+}
+
+
+#circle .item:nth-child(7) {
+  -webkit-clip-path: polygon(0 50%, 50% 50%, 0 0);
+  clip-path: polygon(0 50%, 50% 50%, 0 0);
+
+}
+
+
+#circle .item:nth-child(8) {
+  -webkit-clip-path: polygon(0 0, 50% 50%, 50% 0);
+  clip-path: polygon(0 0, 50% 50%, 50% 0);
+
+}
+
+
+#circle-legend {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+  pointer-events: none;
+  z-index: 2090;
 }
