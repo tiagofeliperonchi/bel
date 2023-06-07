@@ -75,10 +75,6 @@
         overflow: hidden;
         border-radius: 0 0 0 50%;
     }
-
-    #circle {
-        display: none !important;
-    }
 }
 
 @media (min-width: 768px) {

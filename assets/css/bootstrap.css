@@ -1275,7 +1275,7 @@ tbody.collapse.in {
   position: relative;
 }
 
-.user-nav .menu>li .item {
+.user-nav .menu>li a {
   position: relative;
   display: flex;
   align-items: center;
@@ -1286,20 +1286,20 @@ tbody.collapse.in {
   line-height: 1;
 }
 
-.user-nav .menu>li .item:before {
+.user-nav .menu>li a:before {
   font-family: 'fontello';
   font-size: 25px;
 }
 
-.user-nav .menu>li[title="Carrinho"] .item:before {
+.user-nav .menu>li a[title="Carrinho"]:before {
   content: '\e801';
 }
 
-.user-nav .menu>li[title="Perfil"] .item:before {
+.user-nav .menu>li a[title="Perfil"]:before {
   content: '\e800';
 }
 
-.user-nav .menu>li[title="Idioma"] .item:before {
+.user-nav .menu>li a[title="Idioma"]:before {
   content: '\e802';
 }
 
@@ -1400,7 +1400,7 @@ body.menu-open {
   content: '';
   width: 190px;
   padding-top: 20.48%;
-  background: url(../header-logo.svg) 0 0 no-repeat;
+  background: url(../images/header-logo.svg) 0 0 no-repeat;
   background-size: 100%;
 }
 
@@ -1676,7 +1676,7 @@ body.menu-open {
   flex-direction: column;
   width: 100px;
   font-size: 0;
-  background: url(../footer-logo.svg) 0 0 no-repeat;
+  background: url(../images/footer-logo.svg) 0 0 no-repeat;
   background-size: 100%;
 }
 
@@ -2408,6 +2408,73 @@ body.menu-open {
   color: #fff;
 }
 
+
+
+
+
+
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+.visible-xs,
+.visible-sm {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .visible-sm {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
 .red_banner {
   position: relative;
   display: flex;
@@ -2469,7 +2536,7 @@ body.menu-open {
   left: 24.6%;
   width: 48.25%;
   height: 37.62%;
-  background: url(../logo_bel_3d.png) 0 0 no-repeat;
+  background: url(../images/logo_bel_3d.png) 0 0 no-repeat;
   background-size: 100%;
   z-index: 5;
 }
@@ -2563,12 +2630,10 @@ body.menu-open {
 
 }
 
-
 #circle-legend {
   position: absolute;
-  display: flex;
   align-items: center;
-  height: 40px;
+  height: 36px;
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 12px;

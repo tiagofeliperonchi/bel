@@ -27,7 +27,7 @@
     display: block;
     width: 320px;
     height: 315px;
-    background: url(../esg.png) 0 0 no-repeat;
+    background: url(../images/esg.png) 0 0 no-repeat;
     z-index: 2;
 }
 
@@ -147,7 +147,7 @@
     margin-top: 30px;
     width: 190px;
     height: 190px;
-    background: url(../esg.png) 0 0 no-repeat;
+    background: url(../images/esg.png) 0 0 no-repeat;
     background-size: 100%;
     z-index: 2;
 }

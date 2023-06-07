@@ -490,12 +490,12 @@
 }
 
 #reconhecimentos-e-certificacoes .box-4 .column-image {
-    padding-right: 0;
+    padding: 0;
 }
 
 #reconhecimentos-e-certificacoes .box-4 .column-image img {
     display: block;
-    width: 100%;
+    width: calc(100% - 30px);
 }
 
 #reconhecimentos-e-certificacoes .box-4 .column-text {
