@@ -296,7 +296,7 @@
     align-items: center;
     justify-content: space-between;
     background: #eee;
-    padding: 35px;
+    padding: 25px;
     border-radius: 400px;
 }
 
@@ -308,6 +308,27 @@
 
 #quem-somos .box-4 .column-text h3 {
     margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    #quem-somos .box-4 .row {
+        gap: 50px 0;
+    }
+  
+    #quem-somos .box-4 .column-image img {
+        width: 140px;
+    }
+
+    #quem-somos .box-4 .btn-one {
+        width: 150px;
+        height: 44px;
+    }
+}
+
+@media (min-width: 768px) {
+    #quem-somos .box-4 .item {
+        padding: 35px;
+    }
 }
 
 #quem-somos .box-4 .column-image img {

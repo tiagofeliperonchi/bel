@@ -1,14 +1,10 @@
-#carreira .box-1 .column-text {
-    padding-top: 70px;
-}
-
 #carreira .box-1 .column-text h2 {
     line-height: 1;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 #carreira .box-1 .column-text .hashtag {
-    font-size: 32px;
+    font-size: 24px;
     line-height: 1;
     font-weight: 700;
     color: #cf171f;
@@ -30,11 +26,41 @@
 }
 
 #carreira #accordion .panel-body {
-    padding: 40px 60px;
+    padding: 20px 30px;
+}
+
+@media (max-width: 767px) {
+    #carreira .box-1 .column-text {
+        margin-bottom: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    #carreira .box-1 .column-text {
+        padding-top: 70px;
+    }
+
+    #carreira .box-1 .column-text h2 {
+        margin-bottom: 90px;
+    }
+
+    #carreira .box-1 .column-text .hashtag {
+        font-size: 32px;
+    }
+
+    #carreira #accordion .panel-body {
+        padding: 40px 60px;
+    }
 }
 
 #carreira .box-2 {
-    margin-bottom: 140px;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+    #carreira .box-2 {
+        margin-bottom: 140px;
+    }
 }
 
 #carreira .box-3 {
@@ -165,6 +191,12 @@
     margin-bottom: 50px;
 }
 
+@media (max-width: 767px) {
+    #carreira .box-7 .row {
+        flex-direction: column-reverse;
+    }
+}
+
 #carreira .box-8 {
     padding-top: 215px;
     padding-bottom: 50px;
@@ -199,15 +231,53 @@
     background: #fff;
 }
 
-#carreira .box-8 .column-image {
-    position: relative;
-    width: 384px;
-    align-self: flex-start;
+#carreira .box-8 .column-image img {
+    display: block;
+    width: 100%;
+
 }
 
-#carreira .box-8 .column-image img {
-    position: absolute;
-    top: -215px;
-    left: 0;
-    width: 100%;
+@media (max-width: 767px) {
+    #carreira .box-8 {
+        padding-top: 290px;
+    }
+
+    #carreira .box-8 .red_banner {
+        position: relative;
+        padding-top: 170px;
+        gap: 80px 0;
+        padding-bottom: 80px;
+    }
+
+    #carreira .box-8 .column-text h3 {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    #carreira .box-8 .column-image {
+        position: absolute;
+        top: -290px;
+        left: 50%;
+        width: 300px;
+        margin-left: -150px;
+    }
+
+    #carreira .box-8 .column-text .btn-three {
+        width: 180px;
+    }
+}
+
+@media (min-width: 768px) {
+    #carreira .box-8 .column-image {
+        position: relative;
+        width: 384px;
+        align-self: flex-start;
+    }
+
+    #carreira .box-8 .column-image img {
+        position: absolute;
+        top: -215px;
+        left: 0;
+    }
+
 }

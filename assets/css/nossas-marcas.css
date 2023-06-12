@@ -3,6 +3,12 @@
 }
 
 #nossas-marcas .par-1 {
-    margin: 0 auto 100px;
+    margin: 0 auto 70px;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    #nossas-marcas .par-1 {
+        margin-bottom: 100px;
+    }
 }
