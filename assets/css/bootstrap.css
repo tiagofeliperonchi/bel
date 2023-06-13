@@ -2237,7 +2237,6 @@ body.menu-open {
 
 @media (max-width: 767px) {
   .block-text {
-    text-align: center;
     flex-direction: column !important;
     gap: 60px 0;
   }
