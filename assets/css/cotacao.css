@@ -54,11 +54,11 @@
     border-radius: 6px;
 }
 
-#cotacao .sadojhacvcccc .btn-one input {
+#cotacao .sadojhacvcccc [class*="btn-"] input {
     display: none;
 }
 
-#cotacao .sadojhacvcccc .btn-one:before {
+#cotacao .sadojhacvcccc [class*="btn-"]:before {
     content: 'Anexar';
 }
 

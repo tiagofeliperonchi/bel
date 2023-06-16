@@ -249,7 +249,7 @@
     color: #fff;
 }
 
-#carreira .box-8 .column-text .btn-three:hover {
+#carreira .box-8 .column-text [class*="btn-"]:hover {
     color: #de2937;
     background: #fff;
 }
@@ -285,7 +285,7 @@
         margin-left: -150px;
     }
 
-    #carreira .box-8 .column-text .btn-three {
+    #carreira .box-8 .column-text [class*="btn-"] {
         width: 180px;
     }
 }

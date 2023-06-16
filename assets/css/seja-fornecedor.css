@@ -1,16 +1,22 @@
-#seja-fornecedor .block-text {
-    margin-bottom: 60px;
-}
-
-#seja-fornecedor .block-text p {
+#seja-fornecedor .column-text p {
     margin-bottom: 1.625em;
 }
 
-#seja-fornecedor .block-text p:last-child {
+#seja-fornecedor .column-text p:last-child {
     margin-bottom: 0;
+}
+
+#seja-fornecedor .column-text [class*="btn-"] {
+    margin-top: 60px;
 }
 
 #seja-fornecedor .column-form h3 {
     line-height: 1;
     margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    #seja-fornecedor .column-text {
+        margin-bottom: 100px;
+    }
 }

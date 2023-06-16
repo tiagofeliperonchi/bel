@@ -428,7 +428,7 @@
         width: 140px;
     }
 
-    #quem-somos .box-4 .btn-one {
+    #quem-somos .box-4 [class*="btn-"] {
         width: 150px;
         height: 44px;
     }
@@ -460,7 +460,7 @@
         gap: 40px 0;
     }
 
-    #quem-somos .box-5 .btn-three {
+    #quem-somos .box-5 [class*="btn-"] {
         width: 370px;
     }
 }
@@ -483,7 +483,7 @@
         transform: translate(-50%, 0);
     }
 
-    #quem-somos .box-5 .btn-three {
+    #quem-somos .box-5 [class*="btn-"] {
         padding: 0 30px;
     }
 }

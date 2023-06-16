@@ -325,11 +325,11 @@
     }
 }
 
-.bel-lar .btn-three {
+.bel-lar [class*="btn-"] {
     width: 250px;
 }
 
-.bel-lar .btn-three:hover {
+.bel-lar [class*="btn-"]:hover {
     background: #fff;
     color: #0dbbb4;
 }
